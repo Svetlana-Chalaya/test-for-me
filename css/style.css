@@ -1,0 +1,27 @@
+:root {
+  --start-color: blue;
+  --end-color: white;
+}
+
+body {
+  background-color: aqua;
+}
+
+.header {
+  display: flex;
+}
+
+.header-test {
+  display: block;
+  flex-wrap: wrap;
+  height: 200px;
+  background-color: blueviolet;
+  border-radius: 4px;
+
+  text-align: center;
+  line-height: 200px;
+  font-family: monospace;
+  font-size: xx-large;
+
+  background-image: linear-gradient(120deg, blue, white);
+}
